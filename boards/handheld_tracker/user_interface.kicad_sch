@@ -1,10 +1,3197 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 60c029b7-ba1b-4b37-9f7a-fc3b55381599)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "60c029b7-ba1b-4b37-9f7a-fc3b55381599")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(polyline
+		(pts
+			(xy 214.63 99.06) (xy 214.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009db6d5-ae05-4fb2-a107-d1d71fba3bef")
+	)
+	(polyline
+		(pts
+			(xy 189.23 124.46) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e41ffc-0012-42a3-a364-5944ea8e0ddf")
+	)
+	(polyline
+		(pts
+			(xy 227.33 99.06) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c27305c-3abb-4ce3-8f96-0d5186f8f2df")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1204dc59-beb9-4a8d-b3a3-55f489a715db")
+	)
+	(polyline
+		(pts
+			(xy 55.88 96.52) (xy 55.88 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124882fe-8006-472e-9a20-02f2f6c7a4d0")
+	)
+	(polyline
+		(pts
+			(xy 189.23 137.16) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e48339-4a4c-46d1-9ef0-d5337f5d7da0")
+	)
+	(polyline
+		(pts
+			(xy 214.63 137.16) (xy 214.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed97e18-dec6-4945-8e27-82126f3443cf")
+	)
+	(polyline
+		(pts
+			(xy 93.98 96.52) (xy 55.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231dd9ec-8f51-4d08-973b-700966fef71d")
+	)
+	(polyline
+		(pts
+			(xy 227.33 124.46) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9bb1ce-725f-4ae1-96e9-b103122730ea")
+	)
+	(polyline
+		(pts
+			(xy 189.23 99.06) (xy 189.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a00158-aa1b-46f1-a5bc-47684b81e8e6")
+	)
+	(polyline
+		(pts
+			(xy 55.88 134.62) (xy 168.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347dd859-3064-4889-aa45-178cfdf31e2d")
+	)
+	(polyline
+		(pts
+			(xy 168.91 147.32) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387074f7-3c52-42c4-9e92-0a3195e4c45b")
+	)
+	(wire
+		(pts
+			(xy 66.04 83.82) (xy 72.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d91f82e-252e-416b-97bb-478244980e1a")
+	)
+	(polyline
+		(pts
+			(xy 227.33 149.86) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4501fdbc-dc26-45b1-90e6-c2823e492649")
+	)
+	(polyline
+		(pts
+			(xy 189.23 137.16) (xy 189.23 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b07b471-b0b0-4f96-bd8d-d5a2f6fb3870")
+	)
+	(polyline
+		(pts
+			(xy 168.91 96.52) (xy 168.91 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d89b8b9-5df6-4c4b-9ef1-049ab5ff79b2")
+	)
+	(polyline
+		(pts
+			(xy 128.27 96.52) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f28f1c8-9cf5-4e7b-9c6e-22f7826dc6b6")
+	)
+	(wire
+		(pts
+			(xy 97.79 132.08) (xy 104.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a94c01-47f9-48eb-93f3-5e5d648aac6d")
+	)
+	(polyline
+		(pts
+			(xy 128.27 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d466e5a-dc83-40ad-a125-62d62e10e45d")
+	)
+	(wire
+		(pts
+			(xy 132.08 118.11) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c7795d-0a37-48b1-872f-831af2957d18")
+	)
+	(polyline
+		(pts
+			(xy 189.23 99.06) (xy 227.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647822bd-c8bc-4d28-a523-b08e10c4a5d4")
+	)
+	(wire
+		(pts
+			(xy 96.52 118.11) (xy 102.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c7a4ae-fd12-4d13-a6c4-62482800eb6d")
+	)
+	(polyline
+		(pts
+			(xy 93.98 147.32) (xy 93.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7032e18a-48fd-44b3-9f0c-7181c323eb5c")
+	)
+	(polyline
+		(pts
+			(xy 227.33 111.76) (xy 189.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a03351a-77c0-48f8-b919-f441ebf53a99")
+	)
+	(polyline
+		(pts
+			(xy 201.93 149.86) (xy 214.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c28015c-0afd-4f00-82fb-7da347ae50ea")
+	)
+	(wire
+		(pts
+			(xy 133.35 132.08) (xy 139.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cccda51-dd77-4e9b-96ad-bd7a404ace40")
+	)
+	(wire
+		(pts
+			(xy 97.79 144.78) (xy 104.14 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ad352e-2076-4227-8539-2b078e0da7e2")
+	)
+	(polyline
+		(pts
+			(xy 55.88 147.32) (xy 93.98 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b1af13-222c-4adc-8417-cc92ef22ce9d")
+	)
+	(polyline
+		(pts
+			(xy 214.63 149.86) (xy 227.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c70a04c-a3c1-4b46-9766-ef6229053144")
+	)
+	(polyline
+		(pts
+			(xy 55.88 107.95) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa0bc4a-5d8e-4321-b89d-833cbcc2cfb2")
+	)
+	(polyline
+		(pts
+			(xy 128.27 147.32) (xy 93.98 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a70661-07cd-4bfc-95d6-8bd9a6820c6b")
+	)
+	(polyline
+		(pts
+			(xy 201.93 99.06) (xy 201.93 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b87d25-3ec2-4b87-9a3d-b7fc4aea90e7")
+	)
+	(polyline
+		(pts
+			(xy 93.98 96.52) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab07de07-f94c-4fc7-b4be-a8748811faed")
+	)
+	(polyline
+		(pts
+			(xy 227.33 99.06) (xy 227.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22742f1-980b-47a6-8868-d5b06b919853")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdaaa1fe-418e-436b-9de0-0f5147ead279")
+	)
+	(polyline
+		(pts
+			(xy 55.88 121.92) (xy 168.91 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b3d2f1-2c34-484a-a273-19db3b90bbad")
+	)
+	(wire
+		(pts
+			(xy 58.42 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d768577a-fae9-492c-adcd-55644de17dc9")
+	)
+	(wire
+		(pts
+			(xy 133.35 144.78) (xy 139.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97e191d-757b-46eb-b3eb-4b8c8c965a6a")
+	)
+	(wire
+		(pts
+			(xy 58.42 106.68) (xy 64.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13e916f-74de-48f6-a53a-3bf477824dde")
+	)
+	(polyline
+		(pts
+			(xy 189.23 149.86) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c96f76-7867-4fdc-b76f-9a05fc4a3265")
+	)
+	(wire
+		(pts
+			(xy 96.52 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c5384c-2642-46d7-a099-5c3d54b39918")
+	)
+	(polyline
+		(pts
+			(xy 201.93 137.16) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b3b10e-9e6e-471d-90e5-98441d06723d")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 113.03 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45e1919-24c1-4029-a950-587fe2dbf2ee")
+	)
+	(wire
+		(pts
+			(xy 59.69 144.78) (xy 66.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c21b9b-20d2-4367-8e62-befdc5e3e412")
+	)
+	(wire
+		(pts
+			(xy 59.69 132.08) (xy 66.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9622aad-3a0f-435b-81fa-1832faf077b9")
+	)
+	(rectangle
+		(start 182.88 73.66)
+		(end 233.68 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0748a238-e77b-4cdf-8018-9e10510f229c)
+	)
+	(rectangle
+		(start 187.96 82.55)
+		(end 200.66 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ec719ad-4dd3-42ed-a6c2-6841d09af098)
+	)
+	(rectangle
+		(start 62.23 73.66)
+		(end 100.33 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6fe5fc51-6ca0-44e3-8990-19f46a83489b)
+	)
+	(rectangle
+		(start 204.47 82.55)
+		(end 210.82 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8bafbe66-0300-45d1-af5b-05bbd5d09f05)
+	)
+	(rectangle
+		(start 204.47 91.44)
+		(end 210.82 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cbfe7c5a-299e-4c2e-900c-94e1b55f44cc)
+	)
+	(rectangle
+		(start 102.87 66.04)
+		(end 140.97 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d23ee7f1-d987-4550-a235-3ce862d867da)
+	)
+	(rectangle
+		(start 102.87 78.74)
+		(end 140.97 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d4a06557-a323-4bcf-b12e-02527c311c56)
+	)
+	(text ">"
+		(exclude_from_sim no)
+		(at 207.518 84.836 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "01825487-3f1f-4e08-b22f-a0fba017d4ee")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 195.834 131.826 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "0b993728-0c22-4b1a-9edb-9c5282079c19")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 220.726 119.634 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "1451a5b8-40b0-49e2-a2cb-1dc5b70d605f")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 220.472 106.172 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "1e571d3e-08b1-43f1-af43-b3437aa6be26")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 195.834 105.41 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "2cdddd7f-1f51-4f28-b82a-9b11725d54d7")
+	)
+	(text "."
+		(exclude_from_sim no)
+		(at 195.58 138.684 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "387faacc-1533-4a52-b98e-e708ce6eacc0")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 208.28 119.126 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "4bb0861a-b6d2-4ae8-ab4c-1116a2f6503a")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 220.726 132.588 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "4e79214a-1d97-46d5-982a-c339304904c5")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 208.28 132.08 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "625b0609-134a-4d64-84b1-217138797c54")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 195.834 118.872 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "71e84259-328f-4a24-8ca0-81cce040a5cc")
+	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 207.518 93.726 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9e4e72d0-0e08-4021-9bea-9a4003dd5a19")
+	)
+	(text "MENU"
+		(exclude_from_sim no)
+		(at 194.564 89.662 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a2d46034-29e4-47c1-9958-b054dcf4d164")
+	)
+	(text "ENTER"
+		(exclude_from_sim no)
+		(at 220.98 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a61cd387-6c4a-431c-8325-3653d6847afa")
+	)
+	(text "2\n"
+		(exclude_from_sim no)
+		(at 208.026 105.664 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "cdc0feb6-4969-46b1-809f-4139dfc5b194")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 208.28 144.78 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "e3a7d2ed-22d3-48b1-ad83-9b488a0fca6f")
+	)
+	(hierarchical_label "pushbutton_6"
+		(shape output)
+		(at 148.59 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1192c851-7450-442e-838b-984f41b57591")
+	)
+	(hierarchical_label "pushbutton_4"
+		(shape output)
+		(at 74.93 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "206e7059-8bd1-468c-8ee9-5c69d49371d2")
+	)
+	(hierarchical_label "display_CS"
+		(shape output)
+		(at 87.63 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a4c5f23-2eae-4c6d-a45a-06f058727fdd")
+	)
+	(hierarchical_label "SCK"
+		(shape output)
+		(at 87.63 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cc09823-f8b2-4e4c-b75c-70d765a3a6fb")
+	)
+	(hierarchical_label "pushbutton_1"
+		(shape output)
+		(at 74.93 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40eaad0c-bdcd-4334-b147-6655a59e2169")
+	)
+	(hierarchical_label "pushbutton_9"
+		(shape output)
+		(at 149.86 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f32ecb9-1333-469d-8575-8f5f75ba05e0")
+	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 87.63 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a2916d6-f1b6-4c85-9ecc-bc961bdd46f0")
+	)
+	(hierarchical_label "pushbutton_0"
+		(shape output)
+		(at 114.3 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b45ce6e-d664-45c2-a2ac-3646d88b91c9")
+	)
+	(hierarchical_label "pushbutton_7"
+		(shape output)
+		(at 76.2 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d2e249f-e8ab-4123-b5e1-6e925f166406")
+	)
+	(hierarchical_label "pushbutton_dot"
+		(shape output)
+		(at 76.2 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ea5daf5-5a87-409c-bf57-aa13cd13c15c")
+	)
+	(hierarchical_label "pushbutton_enter"
+		(shape output)
+		(at 149.86 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "702dee36-c5dd-4b0c-89b0-e2f5c065b927")
+	)
+	(hierarchical_label "pushbutton_2"
+		(shape output)
+		(at 113.03 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86668e02-73fd-406b-a1c0-1798b547e8d5")
+	)
+	(hierarchical_label "pushbutton_up"
+		(shape output)
+		(at 123.19 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8beaf705-040b-4e8b-b8fb-34f0fe12ed27")
+	)
+	(hierarchical_label "pushbutton_menu"
+		(shape output)
+		(at 82.55 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7c2f3d4-6fa7-4549-ab57-499942d81ce9")
+	)
+	(hierarchical_label "pushbutton_3"
+		(shape output)
+		(at 148.59 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb9d1c96-3e92-45d9-8f1f-de8fcd92204a")
+	)
+	(hierarchical_label "pushbutton_5"
+		(shape output)
+		(at 113.03 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd863060-a856-4782-a382-8aeb574be03a")
+	)
+	(hierarchical_label "MOSI"
+		(shape output)
+		(at 87.63 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eadfd068-9814-4d1c-8b1b-814ece698166")
+	)
+	(hierarchical_label "pushbutton_down"
+		(shape output)
+		(at 123.19 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec56626e-d476-4a05-ba51-cc1cd8867567")
+	)
+	(hierarchical_label "pushbutton_8"
+		(shape output)
+		(at 114.3 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff7f6d96-345e-4f07-aa14-f0da1b13daff")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 59.69 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05bc1566-e82f-40c2-832f-d38f709a1a2b")
+		(property "Reference" "#PWR018"
+			(at 59.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 59.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 59.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2926465-81f9-4aef-b3bc-9821c0676d6f")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 143.51 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f2c75a9-b282-4c29-9f64-18e6d93c7879")
+		(property "Reference" "SW8"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b8e4760-bca2-44c3-b6ce-623d6a6c4c09")
+		)
+		(pin "2"
+			(uuid "cdf3ce20-0c72-43f4-a8d3-8cc1fdad3c52")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.68 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "129227be-3c2b-4219-a0e9-d7cab75f3e8a")
+		(property "Reference" "#PWR023"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e6ca47-b8ec-40ab-8cb4-8b1c1a3ec638")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 143.51 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea41fba-5499-45d0-abad-1404e44b90aa")
+		(property "Reference" "SW7"
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caf86dd9-8c6f-4344-ac6c-f78c7fe0c556")
+		)
+		(pin "2"
+			(uuid "914120df-a42b-49d0-9fb7-6937678954b2")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 71.12 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c60b4c-f546-452d-8961-6b8955121915")
+		(property "Reference" "SW3"
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 71.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2548d71a-b2a9-4b91-b870-b284ab2caab0")
+		)
+		(pin "2"
+			(uuid "9584c5ff-4e9b-4b7a-bf62-9963aab18ec9")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 71.12 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29b328f9-39f6-475a-9f68-1341ea102ca7")
+		(property "Reference" "SW10"
+			(at 71.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 71.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db59cd2e-f736-4c4b-be76-2538f854e699")
+		)
+		(pin "2"
+			(uuid "34862613-dd38-4574-9ee7-73f3eb371387")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 107.95 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ff5586f-b94d-434d-9b11-225c0aba8c6c")
+		(property "Reference" "SW4"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 107.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9112bc4a-d382-4d7c-a190-dfe09f4c9ce7")
+		)
+		(pin "2"
+			(uuid "154c5375-ae8b-4c86-b755-09d51a3e6506")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 58.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34355ac7-b903-485d-9471-77424fdd8169")
+		(property "Reference" "#PWR09"
+			(at 58.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 58.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2bc3cc3-cde6-432d-a333-567318d27672")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 132.08 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34e6de54-6389-4538-a243-ecfe9621b58e")
+		(property "Reference" "#PWR015"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1201da51-5d78-439d-a544-ef70d29c27e2")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a874fed-8eb1-47d6-8e93-07a7c9d99ef0")
+		(property "Reference" "#PWR014"
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8680e6a6-8f13-4cf6-a6d1-8628328035c2")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 118.11 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b0cde86-6dd5-404d-beff-383da87651af")
+		(property "Reference" "SW15"
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23a57de7-6df8-46b1-92b8-725b906cb722")
+		)
+		(pin "2"
+			(uuid "5d78caab-7d01-4f9c-b3c1-f7ae0be9200c")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 133.35 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fcf3587-c026-4d4d-8015-fd1034d43b53")
+		(property "Reference" "#PWR017"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17e7dced-b931-4bf1-a937-22e6e20cad1e")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 66.04 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51a6e6d0-dcf7-404d-9633-00c178cba7b7")
+		(property "Reference" "#PWR021"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad6813a4-9086-4d42-bbf1-1bb2795d8e3d")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 133.35 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6492d34c-5df0-4695-938b-9987069b1a5a")
+		(property "Reference" "#PWR020"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a3794c7-1520-4691-9153-f011983e94db")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.68 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a2886e1-c310-4852-9b6f-5000795e09bb")
+		(property "Reference" "#PWR022"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce077f32-3e8d-4c5b-ac2e-a3cf62496c81")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "727ec76b-1997-4fb8-910c-338199ddad0f")
+		(property "Reference" "#PWR019"
+			(at 97.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2401236e-dea2-4ee3-a379-8683d0edf66f")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 69.85 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "761d3bbb-1ca6-48c0-893b-cbe3c57bd062")
+		(property "Reference" "SW2"
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b4ed3c3-324b-4508-aab7-a3d2b4aa2d5e")
+		)
+		(pin "2"
+			(uuid "d8348a02-334c-40af-8cb6-cfbf35514c51")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 96.52 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fc3a4b3-790c-4307-86a7-18b10069da26")
+		(property "Reference" "#PWR013"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 96.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 96.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5dbf496-fa2e-4e91-a7f9-1073f4a59bd4")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 144.78 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c0c26fa-ae3a-4f5d-818f-5cd5ec5595ca")
+		(property "Reference" "SW9"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 144.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa73b9d0-ae0f-4a7d-8849-78a1b556c14f")
+		)
+		(pin "2"
+			(uuid "73033050-647c-489a-b4fe-df1d5e460996")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 58.42 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d937b11-aeb9-433f-8658-0bd82bc57004")
+		(property "Reference" "#PWR010"
+			(at 58.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7636271-c3ec-4d23-bffa-3a6bc0feea1f")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 132.08 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90e2be4c-3ad7-4533-9c4a-78a9a054588c")
+		(property "Reference" "#PWR016"
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4816add5-a179-4e2d-a307-038de763f920")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 118.11 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c758945-cbc5-4893-9efa-8e394ba741f6")
+		(property "Reference" "SW14"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d69635dd-b3a5-4656-8b5b-9983c0620373")
+		)
+		(pin "2"
+			(uuid "f70bb19a-9ca5-4273-a0cb-a8459ddfe040")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 96.52 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d10a487-5b06-4ba9-ad3c-9e8e13750fca")
+		(property "Reference" "#PWR012"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b6f0a10-6c26-418d-879d-85f8cd08d00c")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 77.47 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6c3a75a-82df-4752-afc7-bba4659dda18")
+		(property "Reference" "SW13"
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9d30f60-f99a-48ed-ae4d-23003162c106")
+		)
+		(pin "2"
+			(uuid "e4ce90d4-dd6d-487f-866b-8c14e5715d17")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afe16ad4-f890-4876-838a-b8e981edcc8e")
+		(property "Reference" "SW11"
+			(at 109.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cac7f5a1-2280-429e-a932-8cdbb8447bfd")
+		)
+		(pin "2"
+			(uuid "0a3082e5-f78e-425c-b233-b27565393040")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb2aec83-45aa-46ff-8259-d197f8ab2cb6")
+		(property "Reference" "SW6"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9512122-2699-461c-a4f1-ca1ed3c094bc")
+		)
+		(pin "2"
+			(uuid "db187bd1-2c0b-46d6-a0b6-72ba566c26f0")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 59.69 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c31c906d-ec2f-4263-8e0b-2e8468376962")
+		(property "Reference" "#PWR011"
+			(at 59.69 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 59.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86a56ee7-ec37-4a3d-a073-7bc3e622a108")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 144.78 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c75fd407-a5ed-48de-a2b4-fd4f929796ea")
+		(property "Reference" "SW12"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35175b3d-7a7e-4e3e-89aa-0ce0d19182ac")
+		)
+		(pin "2"
+			(uuid "0a2d3b8f-f1f8-4ce0-9382-05b312408009")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 69.85 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e94f499f-a6f3-4526-990a-8c70dfb031e9")
+		(property "Reference" "SW1"
+			(at 69.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b06a0da-66dd-486e-a0e4-267801544f2f")
+		)
+		(pin "2"
+			(uuid "713be083-f448-4954-9645-c14d8f98f85f")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 107.95 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0e01a12-cdd8-4f1e-88b2-7a4e78fb6d83")
+		(property "Reference" "SW5"
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 107.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b43019c-fb07-41e6-9ddb-65e441d31211")
+		)
+		(pin "2"
+			(uuid "94f8115d-8828-4ab9-bf57-e5c33da1fee5")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
