@@ -1597,7 +1597,7 @@
 		)
 		(uuid "10a22c4c-8d1d-4c85-ba76-3b7b72f90c84")
 	)
-	(hierarchical_label "display_CS"
+	(hierarchical_label "display_RST"
 		(shape output)
 		(at 116.84 102.87 180)
 		(fields_autoplaced yes)
@@ -1979,7 +1979,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:XTAL_ABLS-16_ABR"
 			(at 168.91 68.58 0)
 			(effects
 				(font
@@ -2046,7 +2046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 97.79 0)
 			(effects
 				(font
@@ -2114,7 +2114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 191.135 63.8048 0)
 			(effects
 				(font
@@ -2474,7 +2474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 191.135 71.4248 0)
 			(effects
 				(font
@@ -2541,7 +2541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 95.25 0)
 			(effects
 				(font
@@ -2611,7 +2611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.7148 52.07 0)
 			(effects
 				(font

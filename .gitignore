@@ -2,3 +2,7 @@ handheld_tracker.kicad_prl
 fp-info-cache
 _autosave-hand_power.kicad_sch
 handheld_tracker-backups
+# boards/handheld_tracker/_autosave**
+boards/handheld_tracker/**autosave**
+boards/handheld_tracker/**auto_save**
+**.lck

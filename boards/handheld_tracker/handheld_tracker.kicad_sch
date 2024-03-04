@@ -2428,6 +2428,17 @@
 		)
 		(uuid "d4629b6f-ced4-4aea-984c-04bb6b6bd709")
 	)
+	(label "I2C_SCL"
+		(at 162.56 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00d00c71-86c0-479a-b7e5-62036af3c5f6")
+	)
 	(label "pushbutton_6"
 		(at 31.75 48.26 180)
 		(fields_autoplaced yes)
@@ -2604,6 +2615,17 @@
 		)
 		(uuid "67d9de70-8537-44a7-8c95-5a894fee7e25")
 	)
+	(label "display_RST"
+		(at 68.58 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6827e865-bf02-4f1d-a284-72c06562fff6")
+	)
 	(label "pushbutton_8"
 		(at 31.75 53.34 180)
 		(fields_autoplaced yes)
@@ -2691,6 +2713,17 @@
 			(justify right bottom)
 		)
 		(uuid "91670641-ec6c-4c7e-a388-15186d6c6678")
+	)
+	(label "display_RST"
+		(at 162.56 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dfb51cb-b5e3-4cb5-88d4-9a2c6adea248")
 	)
 	(label "pushbutton_1"
 		(at 123.19 119.38 180)
@@ -2836,7 +2869,7 @@
 		(uuid "c9239e52-8912-41ab-82d1-5e3faaff067d")
 	)
 	(label "I2C_SCL"
-		(at 68.58 60.96 0)
+		(at 68.58 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2856,6 +2889,17 @@
 			(justify right bottom)
 		)
 		(uuid "ccbba95a-543e-4e29-8c28-3d7c689be4f4")
+	)
+	(label "I2C_SDA"
+		(at 162.56 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d643e9a2-a3b0-4c9d-be13-fc43dd4e9249")
 	)
 	(label "SCK"
 		(at 198.12 111.76 180)
@@ -2924,7 +2968,7 @@
 		(uuid "f1c21e50-4e69-415c-beb2-fb1803a915f1")
 	)
 	(label "I2C_SDA"
-		(at 68.58 63.5 0)
+		(at 68.58 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3461,7 +3505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 31.4452 144.78 0)
 			(effects
 				(font
@@ -4099,7 +4143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 144.78 0)
 			(effects
 				(font
@@ -4169,7 +4213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
 			(at 236.22 44.45 0)
 			(effects
 				(font
@@ -4567,7 +4611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 63.5 137.16 0)
 			(effects
 				(font
@@ -4837,18 +4881,8 @@
 			)
 			(uuid "4e98c22e-954c-40c8-ba01-74894b4975df")
 		)
-		(pin "display_CS" output
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "40790fa0-1ab1-4a79-bce2-01001dc5be31")
-		)
 		(pin "transceiver_CS" output
-			(at 68.58 54.61 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4912,7 @@
 			(uuid "bb5cc4c4-4ede-42f8-9811-e6a3f4937471")
 		)
 		(pin "I2C_SCL" output
-			(at 68.58 60.96 0)
+			(at 68.58 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4922,7 @@
 			(uuid "8d14d3e4-dbe9-4be6-90b7-896ab2ae4a51")
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 68.58 63.5 0)
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,6 +5000,16 @@
 				(justify left)
 			)
 			(uuid "66e893fb-a267-4613-bd2c-0816e34cee46")
+		)
+		(pin "display_RST" output
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "adaac3ee-c223-4776-a1b3-14595dd0875c")
 		)
 		(instances
 			(project "handheld_tracker"
@@ -5155,45 +5199,35 @@
 			)
 			(uuid "2e26dccc-3033-44c5-a12b-15fd29f7f1b6")
 		)
-		(pin "SCK" output
-			(at 162.56 124.46 0)
+		(pin "display_RST" input
+			(at 162.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e4a7268c-ab35-4b2e-a18b-4d6d40475a39")
+			(uuid "1ffa940e-7024-40dc-9dd1-71dd7c772c15")
 		)
-		(pin "MOSI" output
-			(at 162.56 127 0)
+		(pin "I2C_SDA" bidirectional
+			(at 162.56 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "097b2789-8f8e-46b3-b6db-c2646090e4be")
+			(uuid "829b3947-831c-4448-aebd-00731b37b83c")
 		)
-		(pin "MISO" input
-			(at 162.56 129.54 0)
+		(pin "I2C_SCL" input
+			(at 162.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b0661419-64c3-47fb-bd19-950443d7dde7")
-		)
-		(pin "display_CS" output
-			(at 162.56 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "84482988-9c00-4417-9dff-0c525a371a58")
+			(uuid "4554135c-ddcb-4239-ac53-5976fc23e306")
 		)
 		(instances
 			(project "handheld_tracker"
