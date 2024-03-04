@@ -411,6 +411,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -2035,7 +2117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f2c75a9-b282-4c29-9f64-18e6d93c7879")
-		(property "Reference" "SW8"
+		(property "Reference" "SW6"
 			(at 120.65 144.78 0)
 			(effects
 				(font
@@ -2087,7 +2169,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW8")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2234,7 +2316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ea41fba-5499-45d0-abad-1404e44b90aa")
-		(property "Reference" "SW7"
+		(property "Reference" "SW3"
 			(at 120.65 133.35 0)
 			(effects
 				(font
@@ -2286,7 +2368,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW7")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -2302,7 +2384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c60b4c-f546-452d-8961-6b8955121915")
-		(property "Reference" "SW3"
+		(property "Reference" "SW7"
 			(at 48.26 158.75 0)
 			(effects
 				(font
@@ -2354,7 +2436,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW3")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -2370,7 +2452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29b328f9-39f6-475a-9f68-1341ea102ca7")
-		(property "Reference" "SW10"
+		(property "Reference" "SW_DOT1"
 			(at 48.26 171.45 0)
 			(effects
 				(font
@@ -2422,7 +2504,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW10")
+					(reference "SW_DOT1")
 					(unit 1)
 				)
 			)
@@ -2438,7 +2520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff5586f-b94d-434d-9b11-225c0aba8c6c")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 85.09 133.35 0)
 			(effects
 				(font
@@ -2490,7 +2572,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -2629,6 +2711,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38a93bfb-7eff-4562-aa94-f58044e2d563")
+		(property "Reference" "H4"
+			(at 45.72 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 74.93 166.37 0)
 		(unit 1)
@@ -2704,7 +2850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b0cde86-6dd5-404d-beff-383da87651af")
-		(property "Reference" "SW15"
+		(property "Reference" "SW_DOWN1"
 			(at 95.25 115.57 0)
 			(effects
 				(font
@@ -2756,7 +2902,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW15")
+					(reference "SW_DOWN1")
 					(unit 1)
 				)
 			)
@@ -3167,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "761d3bbb-1ca6-48c0-893b-cbe3c57bd062")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -3219,7 +3365,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3501,7 +3647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c758945-cbc5-4893-9efa-8e394ba741f6")
-		(property "Reference" "SW14"
+		(property "Reference" "SW_UP1"
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -3553,7 +3699,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW14")
+					(reference "SW_UP1")
 					(unit 1)
 				)
 			)
@@ -3626,6 +3772,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dcc5693-7b5f-4b7e-a523-82e89a9efe45")
+		(property "Reference" "H3"
+			(at 45.72 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f8936bd-2c7b-4fad-aad1-c82ca82864dc")
+		(property "Reference" "H1"
+			(at 45.72 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 54.61 118.11 0)
 		(unit 1)
@@ -3635,7 +3909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c3a75a-82df-4752-afc7-bba4659dda18")
-		(property "Reference" "SW13"
+		(property "Reference" "SW_MENU1"
 			(at 54.61 110.49 0)
 			(effects
 				(font
@@ -3687,7 +3961,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW13")
+					(reference "SW_MENU1")
 					(unit 1)
 				)
 			)
@@ -3703,7 +3977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe16ad4-f890-4876-838a-b8e981edcc8e")
-		(property "Reference" "SW11"
+		(property "Reference" "SW0"
 			(at 86.36 171.45 0)
 			(effects
 				(font
@@ -3755,7 +4029,71 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW11")
+					(reference "SW0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b61caeba-181b-4765-aae7-212d720bc6ae")
+		(property "Reference" "H2"
+			(at 45.72 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3771,7 +4109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb2aec83-45aa-46ff-8259-d197f8ab2cb6")
-		(property "Reference" "SW6"
+		(property "Reference" "SW8"
 			(at 86.36 158.75 0)
 			(effects
 				(font
@@ -3823,7 +4161,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW6")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -3905,7 +4243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c75fd407-a5ed-48de-a2b4-fd4f929796ea")
-		(property "Reference" "SW12"
+		(property "Reference" "SW_ENTER1"
 			(at 121.92 171.45 0)
 			(effects
 				(font
@@ -3957,7 +4295,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "SW12")
+					(reference "SW_ENTER1")
 					(unit 1)
 				)
 			)

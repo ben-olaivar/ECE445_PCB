@@ -1,0 +1,139 @@
+(footprint "STEMMA_QT_OLED_DISPLAY"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7d6e233-397c-4b69-98a8-69ec4562e158")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "STEMMA_QT_OLED_DISPLAY"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3b3800e-07aa-428e-a1b8-82a9a9a5630e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bb1e8b9-6676-4bec-ab4f-ef6e6a359b3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05a32809-172d-48e9-abb8-7ee95515d092")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a1fc593-5a7a-471d-b486-6ed1dba7ae81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5 5.33)
+		(end 24.21 32)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1fcde3e9-78ab-4406-9d9b-91e2998b114e")
+	)
+	(fp_rect
+		(start -1.5 35.825)
+		(end 4.85 42.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2d9c892b-c85c-4c6d-b1ef-a21e38a78ad2")
+	)
+	(fp_rect
+		(start 17.86 32)
+		(end 24.21 38.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c6120f5b-a578-46a9-94af-92684f82e113")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bbce657d-a3a2-4c36-8c0e-4c7198b4ab5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.675 39)
+		(size 3 3)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3d0f5db-37ab-48e3-ad3e-6b0a4018e8ae")
+	)
+	(pad "1" thru_hole circle
+		(at 21.035 35.175)
+		(size 3 3)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "911331a6-7881-4ddc-852c-b6d3eb40aed4")
+	)
+	(group ""
+		(uuid "72fd41a2-dc5f-423c-9bf7-7549f2bf31af")
+		(members "2d9c892b-c85c-4c6d-b1ef-a21e38a78ad2" "b3d0f5db-37ab-48e3-ad3e-6b0a4018e8ae")
+	)
+	(group ""
+		(uuid "d6f026da-e49e-4dfc-8262-7f40ca3589f6")
+		(members "911331a6-7881-4ddc-852c-b6d3eb40aed4" "c6120f5b-a578-46a9-94af-92684f82e113")
+	)
+)

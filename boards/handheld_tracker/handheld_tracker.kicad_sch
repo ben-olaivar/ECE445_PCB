@@ -2364,7 +2364,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 45.72 25.4 0)
+		(at 54.61 33.02 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2440,7 +2440,7 @@
 		(uuid "00d00c71-86c0-479a-b7e5-62036af3c5f6")
 	)
 	(label "pushbutton_6"
-		(at 31.75 48.26 180)
+		(at 40.64 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2484,7 +2484,7 @@
 		(uuid "21d70b7f-8e3e-410c-90ed-c7dac4f3e0f6")
 	)
 	(label "pushbutton_1"
-		(at 31.75 35.56 180)
+		(at 40.64 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2506,7 +2506,7 @@
 		(uuid "257f40e1-c68d-4d05-aac4-f8e24e274dc0")
 	)
 	(label "MOSI"
-		(at 68.58 44.45 0)
+		(at 77.47 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2517,7 +2517,7 @@
 		(uuid "2a36e571-15dd-4b21-a3c6-7cf653692538")
 	)
 	(label "pushbutton_4"
-		(at 31.75 43.18 180)
+		(at 40.64 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2539,7 +2539,7 @@
 		(uuid "3ecc3237-fbc4-4ced-874b-f5b746681745")
 	)
 	(label "pushbutton_down"
-		(at 31.75 73.66 180)
+		(at 40.64 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2561,7 +2561,7 @@
 		(uuid "51930f91-4f3c-48da-b4be-072cceea1a3d")
 	)
 	(label "pushbutton_enter"
-		(at 31.75 63.5 180)
+		(at 40.64 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2594,7 +2594,7 @@
 		(uuid "5a9f6f1e-8772-4d70-b5b7-228c42a8429c")
 	)
 	(label "pushbutton_0"
-		(at 31.75 60.96 180)
+		(at 40.64 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2605,7 +2605,7 @@
 		(uuid "638a6a9f-3060-4c20-8997-1a74637ba455")
 	)
 	(label "input_voltage"
-		(at 254 111.76 180)
+		(at 257.81 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2616,7 +2616,7 @@
 		(uuid "67d9de70-8537-44a7-8c95-5a894fee7e25")
 	)
 	(label "display_RST"
-		(at 68.58 54.61 0)
+		(at 77.47 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2627,7 +2627,7 @@
 		(uuid "6827e865-bf02-4f1d-a284-72c06562fff6")
 	)
 	(label "pushbutton_8"
-		(at 31.75 53.34 180)
+		(at 40.64 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2638,7 +2638,7 @@
 		(uuid "6b7e8d89-4df0-4057-9f26-ea43cebbaa33")
 	)
 	(label "MISO"
-		(at 68.58 46.99 0)
+		(at 77.47 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2660,7 +2660,7 @@
 		(uuid "8364e0f7-afbf-4490-8de4-3daa328150e4")
 	)
 	(label "SCK"
-		(at 68.58 49.53 0)
+		(at 77.47 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2671,7 +2671,7 @@
 		(uuid "85835563-6fcd-4733-b6dc-873689e3079e")
 	)
 	(label "pushbutton_5"
-		(at 31.75 45.72 180)
+		(at 40.64 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2682,7 +2682,7 @@
 		(uuid "86fe79b4-6020-4e21-a4e2-48c445546c3c")
 	)
 	(label "pushbutton_2"
-		(at 31.75 38.1 180)
+		(at 40.64 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2737,7 +2737,7 @@
 		(uuid "a000ef00-6957-4d51-9f33-72a8eb2e295a")
 	)
 	(label "pushbutton_3"
-		(at 31.75 40.64 180)
+		(at 40.64 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,7 +2770,7 @@
 		(uuid "aa40f992-a4bf-495c-aed9-1a65180ccb89")
 	)
 	(label "pushbutton_menu"
-		(at 31.75 68.58 180)
+		(at 40.64 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2790,6 +2790,17 @@
 			(justify right bottom)
 		)
 		(uuid "af5c34be-ae53-47c8-b2ce-39fad1a78c5e")
+	)
+	(label "I2C_SCL"
+		(at 140.97 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af60f6be-23c3-4366-b2a8-bc8277b33dc9")
 	)
 	(label "pushbutton_2"
 		(at 123.19 121.92 180)
@@ -2858,7 +2869,7 @@
 		(uuid "c65c1e8c-0491-4afc-9097-64f9da7bca93")
 	)
 	(label "pushbutton_up"
-		(at 31.75 71.12 180)
+		(at 40.64 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2869,7 +2880,7 @@
 		(uuid "c9239e52-8912-41ab-82d1-5e3faaff067d")
 	)
 	(label "I2C_SCL"
-		(at 68.58 64.77 0)
+		(at 77.47 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2880,7 +2891,7 @@
 		(uuid "ca4377fd-9b72-42de-b193-656941509b38")
 	)
 	(label "pushbutton_dot"
-		(at 31.75 58.42 180)
+		(at 40.64 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2913,7 +2924,7 @@
 		(uuid "dced474b-4f75-4bf6-b5c8-efbf506b656a")
 	)
 	(label "pushbutton_9"
-		(at 31.75 55.88 180)
+		(at 40.64 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2957,7 +2968,7 @@
 		(uuid "ea4f0b6c-fab0-4ea9-b39d-f4228db0b8c0")
 	)
 	(label "pushbutton_7"
-		(at 31.75 50.8 180)
+		(at 40.64 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2968,7 +2979,7 @@
 		(uuid "f1c21e50-4e69-415c-beb2-fb1803a915f1")
 	)
 	(label "I2C_SDA"
-		(at 68.58 67.31 0)
+		(at 77.47 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2988,6 +2999,17 @@
 			(justify right bottom)
 		)
 		(uuid "f7fc5a48-dac2-4a02-8d72-667b8beee732")
+	)
+	(label "I2C_SDA"
+		(at 140.97 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8749c5e-bce0-428d-ab82-97e87f57c0cc")
 	)
 	(global_label "INPUT_VOLTAGE"
 		(shape input)
@@ -3013,7 +3035,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 254 125.73 270)
+		(at 257.81 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3021,8 +3043,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0132d510-3f84-4054-b2f0-14dd9b76b985")
-		(property "Reference" "TP7"
-			(at 259.08 124.4599 90)
+		(property "Reference" "TP_GND1"
+			(at 262.89 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3053,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 259.08 126.9999 90)
+			(at 262.89 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3062,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 254 130.81 0)
+			(at 257.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3071,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 130.81 0)
+			(at 257.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3080,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 254 125.73 0)
+			(at 257.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3094,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "TP7")
+					(reference "TP_GND1")
 					(unit 1)
 				)
 			)
@@ -3354,7 +3376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b8b8e4f-f9d5-483a-a67a-0a62f78d80ae")
-		(property "Reference" "TP5"
+		(property "Reference" "TP_I2C_SDA1"
 			(at 229.87 116.8399 90)
 			(effects
 				(font
@@ -3405,7 +3427,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "TP5")
+					(reference "TP_I2C_SDA1")
 					(unit 1)
 				)
 			)
@@ -3623,7 +3645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50d26abe-b5b3-4295-94bc-0e6dbb929e0a")
-		(property "Reference" "TP2"
+		(property "Reference" "TP_MISO1"
 			(at 203.2 116.8399 90)
 			(effects
 				(font
@@ -3674,7 +3696,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "TP2")
+					(reference "TP_MISO1")
 					(unit 1)
 				)
 			)
@@ -3861,7 +3883,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 254 111.76 270)
+		(at 257.81 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3869,8 +3891,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6819b8-ea0f-40e1-a1af-22d3e7b26db6")
-		(property "Reference" "TP8"
-			(at 259.08 110.4899 90)
+		(property "Reference" "TP_INPUT_VOLTAGE1"
+			(at 262.89 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3901,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 259.08 113.0299 90)
+			(at 262.89 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3910,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 254 116.84 0)
+			(at 257.81 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3919,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 116.84 0)
+			(at 257.81 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3928,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 254 111.76 0)
+			(at 257.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3942,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "TP8")
+					(reference "TP_INPUT_VOLTAGE1")
 					(unit 1)
 				)
 			)
@@ -4052,7 +4074,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 125.73 0)
+		(at 257.81 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4060,7 +4082,7 @@
 		(dnp no)
 		(uuid "b80adc3e-b6d7-430e-bf99-fc96772811f3")
 		(property "Reference" "#PWR025"
-			(at 254 132.08 0)
+			(at 257.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.444 125.73 0)
+			(at 254.254 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 125.73 0)
+			(at 257.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 125.73 0)
+			(at 257.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 125.73 0)
+			(at 257.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbb3d07d-4c39-44ec-8aa5-fdbc66e00e61")
-		(property "Reference" "TP1"
+		(property "Reference" "TP_SCK1"
 			(at 203.2 110.4899 90)
 			(effects
 				(font
@@ -4313,7 +4335,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "TP1")
+					(reference "TP_SCK1")
 					(unit 1)
 				)
 			)
@@ -4321,7 +4343,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 254 119.38 270)
+		(at 257.81 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4329,8 +4351,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd06acc3-3130-4488-a500-6204533b4c15")
-		(property "Reference" "TP6"
-			(at 259.08 118.1099 90)
+		(property "Reference" "TP_3V3"
+			(at 262.89 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4361,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 259.08 120.6499 90)
+			(at 262.89 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4370,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 254 124.46 0)
+			(at 257.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 124.46 0)
+			(at 257.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4388,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 254 119.38 0)
+			(at 257.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4402,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "TP6")
+					(reference "TP_3V3")
 					(unit 1)
 				)
 			)
@@ -4396,7 +4418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb79a20b-4f97-4571-8e11-85fb49b512ef")
-		(property "Reference" "TP4"
+		(property "Reference" "TP_I2C_SCL1"
 			(at 229.87 110.4899 90)
 			(effects
 				(font
@@ -4447,7 +4469,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "TP4")
+					(reference "TP_I2C_SCL1")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4477,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 254 119.38 0)
+		(at 257.81 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4463,7 +4485,7 @@
 		(dnp no)
 		(uuid "eba17d3e-463d-44ea-bb12-b29990b5a34e")
 		(property "Reference" "#PWR024"
-			(at 254 123.19 0)
+			(at 257.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4494,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 249.936 119.38 0)
+			(at 253.746 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 119.38 0)
+			(at 257.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 119.38 0)
+			(at 257.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 119.38 0)
+			(at 257.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +4550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec34a553-6f70-42a5-a9b9-b7f9a700c3a3")
-		(property "Reference" "TP3"
+		(property "Reference" "TP_MOSI1"
 			(at 203.2 123.1899 90)
 			(effects
 				(font
@@ -4579,7 +4601,7 @@
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "TP3")
+					(reference "TP_MOSI1")
 					(unit 1)
 				)
 			)
@@ -4732,7 +4754,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 32.512)
+		(at 40.64 40.132)
 		(size 36.83 43.688)
 		(fields_autoplaced yes)
 		(stroke
@@ -4744,7 +4766,7 @@
 		)
 		(uuid "b5768583-2921-450f-a3c7-6bb918f05112")
 		(property "Sheetname" "mcu"
-			(at 31.75 31.8004 0)
+			(at 40.64 39.4204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4775,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 31.75 76.7846 0)
+			(at 40.64 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4784,7 @@
 			)
 		)
 		(pin "RX" input
-			(at 68.58 36.83 0)
+			(at 77.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4794,7 @@
 			(uuid "86f41f2b-350c-4887-8f60-837edf743bd3")
 		)
 		(pin "TX" input
-			(at 68.58 39.37 0)
+			(at 77.47 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +4804,7 @@
 			(uuid "f5557837-44f9-453d-9ecb-72dd38f12833")
 		)
 		(pin "pushbutton_4" input
-			(at 31.75 43.18 180)
+			(at 40.64 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +4814,7 @@
 			(uuid "b54d0e92-165a-451e-a192-d2b2407356cd")
 		)
 		(pin "pushbutton_5" input
-			(at 31.75 45.72 180)
+			(at 40.64 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4824,7 @@
 			(uuid "5a070889-7281-4e94-a6e5-79c9f006c210")
 		)
 		(pin "pushbutton_6" input
-			(at 31.75 48.26 180)
+			(at 40.64 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4834,7 @@
 			(uuid "fda78f05-c19e-4edb-b94a-27f95aae044e")
 		)
 		(pin "pushbutton_7" input
-			(at 31.75 50.8 180)
+			(at 40.64 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4844,7 @@
 			(uuid "068d9f92-0354-49d5-b0c2-90038dd73d8e")
 		)
 		(pin "pushbutton_1" input
-			(at 31.75 35.56 180)
+			(at 40.64 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4854,7 @@
 			(uuid "fd4a27ff-8b2c-4211-b349-6001ab72af11")
 		)
 		(pin "pushbutton_3" input
-			(at 31.75 40.64 180)
+			(at 40.64 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4864,7 @@
 			(uuid "09b905d7-9266-4a4d-b8be-d2db7d9dfedf")
 		)
 		(pin "pushbutton_2" input
-			(at 31.75 38.1 180)
+			(at 40.64 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4874,7 @@
 			(uuid "c787b554-8392-4d80-894d-f1d628324064")
 		)
 		(pin "MISO" input
-			(at 68.58 44.45 0)
+			(at 77.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4884,7 @@
 			(uuid "cba32f69-daab-4123-9f76-2637c31752fa")
 		)
 		(pin "MOSI" output
-			(at 68.58 46.99 0)
+			(at 77.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +4894,7 @@
 			(uuid "9872d8d7-b9c1-4546-9219-8f9f8889cbea")
 		)
 		(pin "SCK" output
-			(at 68.58 49.53 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +4904,7 @@
 			(uuid "4e98c22e-954c-40c8-ba01-74894b4975df")
 		)
 		(pin "transceiver_CS" output
-			(at 68.58 59.69 0)
+			(at 77.47 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +4914,7 @@
 			(uuid "ad210817-405f-46e9-868b-a6536b97a364")
 		)
 		(pin "pushbutton_down" input
-			(at 31.75 73.66 180)
+			(at 40.64 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +4924,7 @@
 			(uuid "c97361b1-f90b-4828-b7d5-d38b66622213")
 		)
 		(pin "RESET" input
-			(at 68.58 72.39 0)
+			(at 77.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4934,7 @@
 			(uuid "bb5cc4c4-4ede-42f8-9811-e6a3f4937471")
 		)
 		(pin "I2C_SCL" output
-			(at 68.58 64.77 0)
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +4944,7 @@
 			(uuid "8d14d3e4-dbe9-4be6-90b7-896ab2ae4a51")
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 68.58 67.31 0)
+			(at 77.47 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +4954,7 @@
 			(uuid "ebad5993-8bc6-4c41-b44e-079b88ede1b4")
 		)
 		(pin "pushbutton_9" input
-			(at 31.75 55.88 180)
+			(at 40.64 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4964,7 @@
 			(uuid "cb7ba6d7-7d90-4130-bdc2-23dfa3a8be11")
 		)
 		(pin "pushbutton_8" input
-			(at 31.75 53.34 180)
+			(at 40.64 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4974,7 @@
 			(uuid "f0813301-9cb7-4d72-9a7b-efe5314bddc5")
 		)
 		(pin "pushbutton_0" input
-			(at 31.75 60.96 180)
+			(at 40.64 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +4984,7 @@
 			(uuid "f7a08785-0fdf-4192-b0d7-6a01ba4c6b5d")
 		)
 		(pin "pushbutton_dot" input
-			(at 31.75 58.42 180)
+			(at 40.64 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +4994,7 @@
 			(uuid "ea9dd073-ba0d-4746-8503-c5237fc21650")
 		)
 		(pin "pushbutton_menu" input
-			(at 31.75 68.58 180)
+			(at 40.64 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5004,7 @@
 			(uuid "81ef66fc-8f75-4af2-9950-61309daa6063")
 		)
 		(pin "pushbutton_up" input
-			(at 31.75 71.12 180)
+			(at 40.64 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5014,7 @@
 			(uuid "7582aeac-480b-4514-936b-001c46b5870c")
 		)
 		(pin "pushbutton_enter" input
-			(at 31.75 63.5 180)
+			(at 40.64 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5024,7 @@
 			(uuid "66e893fb-a267-4613-bd2c-0816e34cee46")
 		)
 		(pin "display_RST" output
-			(at 68.58 54.61 0)
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
