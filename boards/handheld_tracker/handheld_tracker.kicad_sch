@@ -2025,6 +2025,108 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 128.27 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "429ebade-87c1-4843-ba52-62dffb9cebd3")
 	)
 	(junction
 		(at 35.56 147.32)
@@ -2061,6 +2163,62 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd5b09e6-c1de-4ea5-90a1-04c0fd641bba")
+	)
+	(no_connect
+		(at 41.91 139.7)
+		(uuid "0056e343-f9ae-4062-bf1c-31270edc0d89")
+	)
+	(no_connect
+		(at 140.97 49.53)
+		(uuid "18fc8d9e-5586-4749-a37e-a1c6b2ede67d")
+	)
+	(no_connect
+		(at 226.06 57.15)
+		(uuid "2595d7a9-b83a-4763-be05-6a83a9e24fe3")
+	)
+	(no_connect
+		(at 226.06 54.61)
+		(uuid "2e7756ac-ccf3-4cdb-b1b5-25f50317d792")
+	)
+	(no_connect
+		(at 226.06 62.23)
+		(uuid "5ea21ddf-0291-4e17-9daa-6a6485b58581")
+	)
+	(no_connect
+		(at 200.66 57.15)
+		(uuid "7701be00-967c-4dfe-b41f-ef9c06b46089")
+	)
+	(no_connect
+		(at 115.57 59.69)
+		(uuid "81fe343d-5cd3-46a7-9677-76f284e8b678")
+	)
+	(no_connect
+		(at 115.57 52.07)
+		(uuid "95295148-f752-45e8-9e04-394f2d7be242")
+	)
+	(no_connect
+		(at 226.06 59.69)
+		(uuid "ad34c547-e0fb-4546-babe-b3805185206a")
+	)
+	(no_connect
+		(at 140.97 52.07)
+		(uuid "b68f52a6-0ca1-4d5e-b953-389d5dc30b5f")
+	)
+	(no_connect
+		(at 115.57 54.61)
+		(uuid "bba9e5f0-f4f1-47fa-82a8-a61623306547")
+	)
+	(no_connect
+		(at 226.06 49.53)
+		(uuid "bea586a4-9228-4136-840a-3f1d77fa078b")
+	)
+	(no_connect
+		(at 226.06 52.07)
+		(uuid "dc485147-fd62-40e6-a009-dbb9c99864dc")
+	)
+	(no_connect
+		(at 115.57 57.15)
+		(uuid "e7521fbe-bb26-4f9e-830c-b52049b8b280")
 	)
 	(wire
 		(pts
@@ -2124,6 +2282,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 67.31) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41408c47-6494-4991-a67e-898580a842bf")
+	)
+	(wire
+		(pts
 			(xy 57.15 142.24) (xy 71.12 142.24)
 		)
 		(stroke
@@ -2134,6 +2302,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 39.37) (xy 128.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56918bb2-88b5-49bd-8fe3-2e7704c059b1")
+	)
+	(wire
+		(pts
 			(xy 57.15 137.16) (xy 59.69 137.16)
 		)
 		(stroke
@@ -2141,6 +2319,16 @@
 			(type default)
 		)
 		(uuid "5b9c5e00-858d-47d0-b0c1-0a324e86c8c4")
+	)
+	(wire
+		(pts
+			(xy 215.9 69.85) (xy 213.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6252ddd7-2ac6-4d25-a382-fd7c57733a76")
 	)
 	(polyline
 		(pts
@@ -2171,16 +2359,6 @@
 			(type default)
 		)
 		(uuid "741fb45d-dcbb-4207-8598-a44e510b557e")
-	)
-	(wire
-		(pts
-			(xy 215.9 67.31) (xy 215.9 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7517b6de-aa10-4c4f-b205-b98b88fbe11c")
 	)
 	(wire
 		(pts
@@ -2234,13 +2412,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 69.85) (xy 215.9 69.85)
+			(xy 130.81 41.91) (xy 130.81 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3de304d-b48e-4e43-8e22-2f7a7259fdaf")
+		(uuid "b32508c7-6378-4c94-a8e3-1795421aed1f")
 	)
 	(wire
 		(pts
@@ -2462,7 +2640,7 @@
 		(uuid "18031a46-5a62-40a8-9bc4-7d6124ee8472")
 	)
 	(label "I2C_SDA"
-		(at 224.79 118.11 180)
+		(at 222.25 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2538,6 +2716,17 @@
 		)
 		(uuid "3ecc3237-fbc4-4ced-874b-f5b746681745")
 	)
+	(label "transceiver_CS"
+		(at 77.47 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "462905c1-624d-482a-84e2-84bc352d3fe1")
+	)
 	(label "pushbutton_down"
 		(at 40.64 81.28 180)
 		(fields_autoplaced yes)
@@ -2603,17 +2792,6 @@
 			(justify right bottom)
 		)
 		(uuid "638a6a9f-3060-4c20-8997-1a74637ba455")
-	)
-	(label "input_voltage"
-		(at 257.81 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67d9de70-8537-44a7-8c95-5a894fee7e25")
 	)
 	(label "display_RST"
 		(at 77.47 62.23 0)
@@ -2703,7 +2881,7 @@
 		)
 		(uuid "8e662a22-61f2-4ae8-8242-91c55bbd8d38")
 	)
-	(label "CS"
+	(label "transceiver_CS"
 		(at 200.66 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2748,7 +2926,7 @@
 		(uuid "a7686658-7081-46de-8e99-dc6f9ac7d188")
 	)
 	(label "I2C_SCL"
-		(at 224.79 111.76 180)
+		(at 222.25 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2845,17 +3023,6 @@
 			(justify right bottom)
 		)
 		(uuid "b7dfe910-c3e9-4dfc-ae68-002038d9f506")
-	)
-	(label "input_voltage"
-		(at 43.18 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bbef5cb4-324e-40d7-950a-15501b30ffe1")
 	)
 	(label "pushbutton_5"
 		(at 123.19 129.54 180)
@@ -3033,9 +3200,53 @@
 			)
 		)
 	)
+	(global_label "INPUT_VOLTAGE"
+		(shape input)
+		(at 33.02 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31e337aa-6bbc-4f35-80dd-b9aef9242545")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.6414 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INPUT_VOLTAGE"
+		(shape input)
+		(at 259.08 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb950fb1-69fe-4757-9f55-8da7bde07831")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.7014 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 257.81 125.73 270)
+		(at 259.08 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3044,7 +3255,7 @@
 		(fields_autoplaced yes)
 		(uuid "0132d510-3f84-4054-b2f0-14dd9b76b985")
 		(property "Reference" "TP_GND1"
-			(at 262.89 124.4599 90)
+			(at 264.16 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3264,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 262.89 126.9999 90)
+			(at 264.16 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3273,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 257.81 130.81 0)
+			(at 259.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 130.81 0)
+			(at 259.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3291,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 257.81 125.73 0)
+			(at 259.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,17 +3512,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 213.36 71.12 0)
+		(lib_id "power:PWR_FLAG")
+		(at 44.45 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "15d61f4d-ed17-4f47-9339-5d71100feae1")
-		(property "Reference" "#PWR05"
-			(at 213.36 77.47 0)
+		(uuid "1a50cf41-a980-4036-b8c7-3bb5b14164c7")
+		(property "Reference" "#FLG02"
+			(at 44.45 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,8 +3530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 213.36 76.2 0)
+		(property "Value" "PWR_FLAG"
+			(at 44.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,74 +3539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "769ec870-f71b-4f1d-ae19-f640573dc01f")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 224.79 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b8b8e4f-f9d5-483a-a67a-0a62f78d80ae")
-		(property "Reference" "TP_I2C_SDA1"
-			(at 229.87 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 229.87 119.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 224.79 123.19 0)
+			(at 44.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3548,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 123.19 0)
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a59085e2-72b1-4075-b35e-f5550995057d")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 222.25 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b8b8e4f-f9d5-483a-a67a-0a62f78d80ae")
+		(property "Reference" "TP_I2C_SDA1"
+			(at 227.33 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 227.33 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 222.25 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3624,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 224.79 118.11 0)
+			(at 222.25 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,6 +3705,139 @@
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4837efe8-d93c-4349-ad5f-298ee33f62ad")
+		(property "Reference" "#PWR035"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5753d77b-2655-4b71-924d-be27aa1296e8")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 55.88 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "498865b9-76a6-4f66-b753-d609d5adcb97")
+		(property "Reference" "#PWR034"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9450fbf-554a-44c2-aa2e-d1ac24fbcb41")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3705,6 +4049,73 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
+		(at 44.45 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51fade61-0130-4b22-8f35-057f73de4a20")
+		(property "Reference" "#PWR033"
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e996404a-01ed-4c15-8670-c7dbedcbebd1")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
 		(at 76.2 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3882,35 +4293,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 257.81 111.76 270)
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad6819b8-ea0f-40e1-a1af-22d3e7b26db6")
-		(property "Reference" "TP_INPUT_VOLTAGE1"
-			(at 262.89 110.4899 90)
+		(uuid "aa379a53-7071-4372-9930-a15490933515")
+		(property "Reference" "#FLG03"
+			(at 55.88 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 262.89 113.0299 90)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 257.81 116.84 0)
+		(property "Footprint" ""
+			(at 55.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +4329,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 116.84 0)
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6e10da4-780a-41ce-a92e-df4b4dced7cc")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad6819b8-ea0f-40e1-a1af-22d3e7b26db6")
+		(property "Reference" "TP_INPUT_VOLTAGE1"
+			(at 264.16 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 264.16 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +4405,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 257.81 111.76 0)
+			(at 259.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4551,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 125.73 0)
+		(at 259.08 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4082,7 +4559,7 @@
 		(dnp no)
 		(uuid "b80adc3e-b6d7-430e-bf99-fc96772811f3")
 		(property "Reference" "#PWR025"
-			(at 257.81 132.08 0)
+			(at 259.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254.254 125.73 0)
+			(at 255.524 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 125.73 0)
+			(at 259.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 125.73 0)
+			(at 259.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4594,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 125.73 0)
+			(at 259.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4820,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 257.81 119.38 270)
+		(at 259.08 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4352,7 +4829,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd06acc3-3130-4488-a500-6204533b4c15")
 		(property "Reference" "TP_3V3"
-			(at 262.89 118.1099 90)
+			(at 264.16 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4838,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 262.89 120.6499 90)
+			(at 264.16 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4847,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 257.81 124.46 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 124.46 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4865,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 257.81 119.38 0)
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4887,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 224.79 111.76 270)
+		(at 222.25 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4419,7 +4896,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb79a20b-4f97-4571-8e11-85fb49b512ef")
 		(property "Reference" "TP_I2C_SCL1"
-			(at 229.87 110.4899 90)
+			(at 227.33 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4905,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 229.87 113.0299 90)
+			(at 227.33 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4914,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 224.79 116.84 0)
+			(at 222.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 116.84 0)
+			(at 222.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4932,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 224.79 111.76 0)
+			(at 222.25 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4954,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 257.81 119.38 0)
+		(at 259.08 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4485,7 +4962,7 @@
 		(dnp no)
 		(uuid "eba17d3e-463d-44ea-bb12-b29990b5a34e")
 		(property "Reference" "#PWR024"
-			(at 257.81 123.19 0)
+			(at 259.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4971,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 253.746 119.38 0)
+			(at 255.016 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 119.38 0)
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 119.38 0)
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 119.38 0)
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,6 +5079,72 @@
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
 					(reference "TP_MOSI1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd9420d-679e-45e8-9ffb-d51853187513")
+		(property "Reference" "#FLG01"
+			(at 33.02 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 33.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e3d791a-93bb-4d10-bd99-3e4870fd0a71")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4783,26 +5326,6 @@
 				(justify left top)
 			)
 		)
-		(pin "RX" input
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "86f41f2b-350c-4887-8f60-837edf743bd3")
-		)
-		(pin "TX" input
-			(at 77.47 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f5557837-44f9-453d-9ecb-72dd38f12833")
-		)
 		(pin "pushbutton_4" input
 			(at 40.64 50.8 180)
 			(effects
@@ -4922,16 +5445,6 @@
 				(justify left)
 			)
 			(uuid "c97361b1-f90b-4828-b7d5-d38b66622213")
-		)
-		(pin "RESET" input
-			(at 77.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bb5cc4c4-4ede-42f8-9811-e6a3f4937471")
 		)
 		(pin "I2C_SCL" output
 			(at 77.47 72.39 0)
