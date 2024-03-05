@@ -1015,16 +1015,6 @@
 		)
 		(uuid "647822bd-c8bc-4d28-a523-b08e10c4a5d4")
 	)
-	(wire
-		(pts
-			(xy 73.66 152.4) (xy 80.01 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c7a4ae-fd12-4d13-a6c4-62482800eb6d")
-	)
 	(polyline
 		(pts
 			(xy 71.12 181.61) (xy 71.12 130.81)
@@ -1085,6 +1075,16 @@
 		)
 		(uuid "85b1af13-222c-4adc-8417-cc92ef22ce9d")
 	)
+	(wire
+		(pts
+			(xy 73.66 152.4) (xy 80.01 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c9be9f-1f5e-4563-83a0-fc6a7b69eedb")
+	)
 	(polyline
 		(pts
 			(xy 214.63 149.86) (xy 227.33 149.86)
@@ -1124,6 +1124,16 @@
 			(type default)
 		)
 		(uuid "a9b87d25-3ec2-4b87-9a3d-b7fc4aea90e7")
+	)
+	(wire
+		(pts
+			(xy 110.49 179.07) (xy 116.84 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa31554a-8f20-4390-8b24-7d34862c20c1")
 	)
 	(polyline
 		(pts
@@ -1174,16 +1184,6 @@
 			(type default)
 		)
 		(uuid "d768577a-fae9-492c-adcd-55644de17dc9")
-	)
-	(wire
-		(pts
-			(xy 110.49 179.07) (xy 116.84 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97e191d-757b-46eb-b3eb-4b8c8c965a6a")
 	)
 	(wire
 		(pts
@@ -1871,72 +1871,6 @@
 		(uuid "ff7f6d96-345e-4f07-aa14-f0da1b13daff")
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 36.83 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05bc1566-e82f-40c2-832f-d38f709a1a2b")
-		(property "Reference" "#PWR018"
-			(at 36.83 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 36.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 36.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2926465-81f9-4aef-b3bc-9821c0676d6f")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 88.9 43.18 0)
 		(mirror y)
@@ -2094,17 +2028,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 83.82 123.19 0)
+		(lib_id "power:GND")
+		(at 35.56 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "129227be-3c2b-4219-a0e9-d7cab75f3e8a")
-		(property "Reference" "#PWR023"
-			(at 83.82 127 0)
+		(uuid "12550d13-95ac-4dff-8a0f-7b93e8a363a8")
+		(property "Reference" "#PWR09"
+			(at 35.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,8 +2046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 83.82 118.11 0)
+		(property "Value" "GND"
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 123.19 0)
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 123.19 0)
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,8 +2072,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 83.82 123.19 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,12 +2082,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "84e6ca47-b8ec-40ab-8cb4-8b1c1a3ec638")
+			(uuid "46734ee2-a333-42c3-bdd0-2952b7ad03ab")
 		)
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR023")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2497,204 +2431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34355ac7-b903-485d-9471-77424fdd8169")
-		(property "Reference" "#PWR09"
-			(at 35.56 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2bc3cc3-cde6-432d-a333-567318d27672")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 109.22 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34e6de54-6389-4538-a243-ecfe9621b58e")
-		(property "Reference" "#PWR015"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 109.22 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1201da51-5d78-439d-a544-ef70d29c27e2")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 74.93 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a874fed-8eb1-47d6-8e93-07a7c9d99ef0")
-		(property "Reference" "#PWR014"
-			(at 74.93 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 74.93 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8680e6a6-8f13-4cf6-a6d1-8628328035c2")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 95.25 123.19 0)
 		(unit 1)
@@ -2757,6 +2493,72 @@
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
 					(reference "SW_DOWN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3de2b63e-2a53-4fec-aaa3-4ac0573ece3f")
+		(property "Reference" "#PWR013"
+			(at 73.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6622e27-0b13-4620-b2b5-902c52ae9713")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2828,17 +2630,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 110.49 166.37 0)
+		(lib_id "power:GND")
+		(at 73.66 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fcf3587-c026-4d4d-8015-fd1034d43b53")
-		(property "Reference" "#PWR017"
-			(at 110.49 170.18 0)
+		(uuid "51507668-f1c1-41f3-ad62-aac954ac8e96")
+		(property "Reference" "#PWR012"
+			(at 73.66 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,8 +2648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 110.49 161.29 0)
+		(property "Value" "GND"
+			(at 73.66 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 166.37 0)
+			(at 73.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 166.37 0)
+			(at 73.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,8 +2674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 166.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,29 +2684,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "17e7dced-b931-4bf1-a937-22e6e20cad1e")
+			(uuid "6febfe1d-9886-4313-bcf5-b78fcaaa33f4")
 		)
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR017")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 43.18 118.11 0)
+		(lib_id "power:GND")
+		(at 43.18 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51a6e6d0-dcf7-404d-9633-00c178cba7b7")
-		(property "Reference" "#PWR021"
-			(at 43.18 121.92 0)
+		(uuid "5ca3e286-5fc2-4447-b201-083850bd5756")
+		(property "Reference" "#PWR05"
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "GND"
 			(at 43.18 113.03 0)
 			(effects
 				(font
@@ -2938,7 +2740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 43.18 118.11 0)
 			(effects
 				(font
@@ -2948,29 +2750,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad6813a4-9086-4d42-bbf1-1bb2795d8e3d")
+			(uuid "a536c2c6-256d-4d2d-b341-d7b889a6ede1")
 		)
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR021")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 110.49 179.07 0)
+		(lib_id "power:GND")
+		(at 74.93 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6492d34c-5df0-4695-938b-9987069b1a5a")
-		(property "Reference" "#PWR020"
-			(at 110.49 182.88 0)
+		(uuid "6f6b8c12-a4b1-4020-ab2b-93a22e2a13bf")
+		(property "Reference" "#PWR014"
+			(at 74.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,8 +2780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 110.49 173.99 0)
+		(property "Value" "GND"
+			(at 74.93 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 179.07 0)
+			(at 74.93 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 179.07 0)
+			(at 74.93 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,8 +2806,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 179.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,29 +2816,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a3794c7-1520-4691-9153-f011983e94db")
+			(uuid "f6f0515b-4dc2-4061-abb7-837cbb8b6390")
 		)
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 83.82 110.49 0)
+		(lib_id "power:GND")
+		(at 110.49 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6a2886e1-c310-4852-9b6f-5000795e09bb")
-		(property "Reference" "#PWR022"
-			(at 83.82 114.3 0)
+		(uuid "73f50c41-97f0-4a97-9b1c-ed827ece0d47")
+		(property "Reference" "#PWR017"
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,8 +2846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 83.82 105.41 0)
+		(property "Value" "GND"
+			(at 110.49 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +2855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 110.49 0)
+			(at 110.49 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +2864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 110.49 0)
+			(at 110.49 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,74 +2872,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 83.82 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce077f32-3e8d-4c5b-ac2e-a3cf62496c81")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 74.93 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "727ec76b-1997-4fb8-910c-338199ddad0f")
-		(property "Reference" "#PWR019"
-			(at 74.93 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 74.93 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 179.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,12 +2882,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2401236e-dea2-4ee3-a379-8683d0edf66f")
+			(uuid "77096485-6178-423d-a458-834a89f76ff0")
 		)
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3226,17 +2962,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 152.4 0)
+		(lib_id "power:GND")
+		(at 110.49 179.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fc3a4b3-790c-4307-86a7-18b10069da26")
-		(property "Reference" "#PWR013"
-			(at 73.66 156.21 0)
+		(uuid "766bf9c0-e888-43d1-89fc-7183ff8b847e")
+		(property "Reference" "#PWR020"
+			(at 110.49 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,8 +2980,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 73.66 147.32 0)
+		(property "Value" "GND"
+			(at 110.49 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +2989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 152.4 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +2998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 152.4 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,8 +3006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 152.4 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,12 +3016,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5dbf496-fa2e-4e91-a7f9-1073f4a59bd4")
+			(uuid "d2b37d6a-4238-45a1-8a1c-796c23c1a8fd")
 		)
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR013")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8684e500-3fc6-49a9-85a3-5e28a0e16575")
+		(property "Reference" "#PWR019"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4733652a-7d3b-42b1-ad25-8909e8cfcc4e")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3360,138 +3162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d937b11-aeb9-433f-8658-0bd82bc57004")
-		(property "Reference" "#PWR010"
-			(at 35.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 35.56 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7636271-c3ec-4d23-bffa-3a6bc0feea1f")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 109.22 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90e2be4c-3ad7-4533-9c4a-78a9a054588c")
-		(property "Reference" "#PWR016"
-			(at 109.22 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4816add5-a179-4e2d-a307-038de763f920")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 95.25 110.49 0)
 		(unit 1)
@@ -3554,72 +3224,6 @@
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
 					(reference "SW_UP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d10a487-5b06-4ba9-ad3c-9e8e13750fca")
-		(property "Reference" "#PWR012"
-			(at 73.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 73.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b6f0a10-6c26-418d-879d-85f8cd08d00c")
-		)
-		(instances
-			(project "handheld_tracker"
-				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3762,6 +3366,204 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 109.22 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b58c36c5-85a0-4e25-855b-6bd665f955e3")
+		(property "Reference" "#PWR016"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34bd5b41-0503-4e8b-9e68-5575578912bd")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7808159-3e20-467a-8519-708d31dd4cef")
+		(property "Reference" "#PWR011"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d884477-9b6c-46c4-867c-3ebf28cf726b")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba6ab112-b49f-4fd1-978c-9e34edd6a56c")
+		(property "Reference" "#PWR022"
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7724973e-5c0b-46de-830a-30677178240e")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 86.36 166.37 0)
 		(unit 1)
@@ -3830,17 +3632,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 36.83 166.37 0)
+		(lib_id "power:GND")
+		(at 83.82 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c31c906d-ec2f-4263-8e0b-2e8468376962")
-		(property "Reference" "#PWR011"
-			(at 36.83 170.18 0)
+		(uuid "bc642571-7c22-481b-94a4-14da71046dd3")
+		(property "Reference" "#PWR021"
+			(at 83.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,8 +3650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 36.83 161.29 0)
+		(property "Value" "GND"
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 166.37 0)
+			(at 83.82 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 166.37 0)
+			(at 83.82 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,8 +3676,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 36.83 166.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,12 +3686,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "86a56ee7-ec37-4a3d-a073-7bc3e622a108")
+			(uuid "c876b2c7-e346-4ae3-9be4-db0b86380fef")
 		)
 		(instances
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
-					(reference "#PWR011")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5be9715-da7e-4229-90e3-d32d23d8d9f7")
+		(property "Reference" "#PWR010"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5fc3bbd-0414-41af-8cc2-4b026702587d")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3958,6 +3826,138 @@
 			(project "handheld_tracker"
 				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
 					(reference "SW_ENTER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d29b1454-74fd-4693-a153-5cb7875931cc")
+		(property "Reference" "#PWR015"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "212fe0ef-6966-4538-a879-bff1f5f3ca03")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4744205-421b-4ea1-b1d0-72d026e7650e")
+		(property "Reference" "#PWR018"
+			(at 36.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "411688c8-16e4-46dc-8929-ab73217b30f9")
+		)
+		(instances
+			(project "handheld_tracker"
+				(path "/0d71301b-e65e-49f8-81f9-e7516dc11624/b8ad5378-5a94-4f95-a07b-9b83e4a5ed8b"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
